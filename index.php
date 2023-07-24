@@ -6,21 +6,21 @@
         <section class="service">
             <ul class="service-content inner">
                 <li class="service-item">
-                    <a href="page-salon.html">
+                    <a href="<?php echo get_page_link( '7' );?>">
                         <h2>
                             Salon
                         </h2>
                     </a>
                 </li>
                 <li class="service-item">
-                    <a href="">
+                    <a href="<?php echo get_page_link( '9' );?>">
                         <h2>
                             Menu
                         </h2>
                     </a>
                 </li>
                 <li class="service-item">
-                    <a href="">
+                    <a href="<?php echo get_page_link( '11' );?>">
                         <h2>
                             Notes
                         </h2>
