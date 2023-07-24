@@ -1,0 +1,15 @@
+@mixin responsive($size){
+    $width: 0;
+    @if($size == md){
+        $width: 900px;
+    }
+    @else if($size == sm){
+        $width: 768px;
+    }
+    @else if($size == sp){
+        $width: 400px;
+    }
+    @media screen and (max-width: $width){
+        @content;
+    }
+}

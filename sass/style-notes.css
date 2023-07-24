@@ -1,0 +1,33 @@
+.notes-text {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  line-height: 22.99px;
+}
+.notes-list-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.notes-list {
+  margin-bottom: 7px;
+}
+.notes-list-item {
+  line-height: 22.99px;
+}
+.notes-list-item span {
+  font-size: 14px;
+  color: rgb(153, 0, 0);
+}
+
+.notes-section_3 .notes-list-item:first-child {
+  margin-bottom: 5px;
+}
+.notes-section_3 .notes-list-item:last-child {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.notes-section_3 p {
+  font-weight: 700;
+  margin-bottom: 42px;
+}/*# sourceMappingURL=style-notes.css.map */

@@ -1,0 +1,104 @@
+.main-menu {
+  margin: 0 20px;
+}
+
+.menu-body .menu-header,
+.menu-foot .menu-header,
+.menu-facial .menu-header {
+  font-size: 19.2px;
+  margin-bottom: 20px;
+}
+.menu-body .menu-title,
+.menu-foot .menu-title,
+.menu-facial .menu-title {
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  .menu-body .menu-title,
+  .menu-foot .menu-title,
+  .menu-facial .menu-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.menu-body .menu-list,
+.menu-foot .menu-list,
+.menu-facial .menu-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 40px;
+  border-bottom: dotted 1px #fff;
+}
+@media screen and (max-width: 768px) {
+  .menu-body .menu-list,
+  .menu-foot .menu-list,
+  .menu-facial .menu-list {
+    flex-direction: column;
+  }
+}
+.menu-body .menu-price,
+.menu-foot .menu-price,
+.menu-facial .menu-price {
+  font-size: 19.2px;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 10px 22px;
+  width: 150px;
+}
+@media screen and (max-width: 768px) {
+  .menu-body .menu-price,
+  .menu-foot .menu-price,
+  .menu-facial .menu-price {
+    margin: 0 auto;
+  }
+}
+.menu-body .menu-price dd,
+.menu-body .menu-price dt,
+.menu-foot .menu-price dd,
+.menu-foot .menu-price dt,
+.menu-facial .menu-price dd,
+.menu-facial .menu-price dt {
+  display: block;
+  margin-bottom: -5px;
+}
+.menu-body .menu-price .keta,
+.menu-foot .menu-price .keta,
+.menu-facial .menu-price .keta {
+  margin-left: -10px;
+}
+
+.menu-body .menu-list {
+  padding-bottom: 10px;
+}
+.menu-body .menu-list-flex {
+  display: flex;
+  justify-content: left;
+  gap: 0 14px;
+  margin-bottom: 7px;
+}
+@media screen and (max-width: 768px) {
+  .menu-body .menu-list-flex {
+    justify-content: center;
+    gap: 0 30px;
+    margin-bottom: 20px;
+  }
+}
+.menu-body .menu-list .corse-tag {
+  padding: 5px 20px;
+  background: rgb(153, 0, 0);
+}
+.menu-body .menu-list .corse-title {
+  font-size: 24px;
+}
+.menu-body .menu-list .corse-text {
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  .menu-body .menu-list .corse-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=style-menu.css.map */

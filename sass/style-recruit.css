@@ -1,0 +1,18 @@
+.section-recruit {
+  margin: 10px 20px;
+  margin-bottom: 58px;
+}
+.section-recruit table {
+  border-collapse: collapse;
+}
+.section-recruit td {
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #fff;
+}
+.section-recruit tr td:first-child {
+  width: 30%;
+}
+.section-recruit tr td:last-child {
+  padding: 0 10px;
+}/*# sourceMappingURL=style-recruit.css.map */

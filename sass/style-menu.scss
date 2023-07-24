@@ -1,0 +1,99 @@
+@charset "utf-8";
+@use "responsive" as*;
+
+// 汎用クラス フット,フェイシャル 
+.main-menu {
+    margin: 0 20px;
+}
+
+.menu-body,
+.menu-foot,
+.menu-facial {
+    .menu-header {
+        font-size: 19.2px;
+        margin-bottom: 20px;
+    }
+
+    .menu-title {
+        font-size: 24px;
+        @include responsive(sm){
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    .menu-list {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 12px;
+        margin-bottom: 40px;
+        border-bottom: dotted 1px #fff;
+
+        @include responsive(sm) {
+            flex-direction: column;
+        }
+    }
+
+    .menu-price {
+        font-size: 19.2px;
+        font-weight: 700;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        gap: 10px 22px;
+        width: 150px;
+        @include responsive(sm){
+            margin: 0 auto;
+        }
+
+        dd,
+        dt {
+            display: block;
+            margin-bottom: -5px;
+        }
+
+        .keta {
+            margin-left: -10px;
+        }
+    }
+}
+
+// ボディ
+
+.menu-body {
+    .menu-list {
+        padding-bottom: 10px;
+
+        &-flex {
+            display: flex;
+            justify-content: left;
+            gap: 0 14px;
+            margin-bottom: 7px;
+            @include responsive(sm){
+                justify-content: center;
+                gap: 0 30px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .corse {
+            &-tag {
+                padding: 5px 20px;
+                background: rgba(153, 0, 0, 1);
+            }
+
+            &-title {
+                font-size: 24px;
+            }
+
+            &-text {
+                font-size: 14px;
+                @include responsive(sm){
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+}
