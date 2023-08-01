@@ -6,6 +6,11 @@
     @else if($size == sm){
         $width: 768px;
     }
+
+    @else if($size == smm){
+        $width: 600px;
+    }
+
     @else if($size == sp){
         $width: 400px;
     }

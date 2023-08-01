@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/sass/style-menu.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/sass/style-notes.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/sass/style-recruit.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/sass/style-hambargar.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
     <title>ETELLIAリラクゼーション-Demo site</title>
     <?php wp_head(); ?>

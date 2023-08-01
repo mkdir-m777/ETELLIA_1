@@ -7,15 +7,30 @@
     table{
         border-collapse: collapse
     }
+    th,
     td{
         text-align: center;
         padding: 20px 0;
         border:1px solid #fff ;
+        white-space: nowrap;
+        @include responsive(sm){
+            font-size: 14px;
+        }
     }
-    tr td:first-child{
+    tr th{
         width: 30%;
+        @include responsive(sp){
+            width: 100%;
+        }
     }
-    tr td:last-child{
-        padding: 0 10px;
+    tr{
+        @include responsive(sp){
+            display: flex;
+            flex-direction: column;
+            th{
+                background-color: #fff;
+                color: #000;
+            }
+        }
     }
 }

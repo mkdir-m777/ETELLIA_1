@@ -70,7 +70,7 @@
                             <h2 class="corse-title">全身エステ</h2>
                         </div>
                         <p class="corse-text">
-                            ＜ 頭・首・肩 ＞を集中的にほぐします。
+                            &lt; 頭・首・肩 ＞を集中的にほぐします。
                         </p>
                     </li>
                     <li>
@@ -87,7 +87,7 @@
                             <h2 class="corse-title">全身エステ</h2>
                         </div>
                         <p class="corse-text">
-                            ＜ 頭・首・肩・背中・腰 ＞を集中的にほぐします。
+                            &lt; 頭・首・肩・背中・腰 &gt;を集中的にほぐします。
                         </p>
                     </li>
                     <li>
@@ -104,7 +104,7 @@
                             <h2 class="corse-title">全身エステ</h2>
                         </div>
                         <p class="corse-text">
-                            ＜ 頭・首・肩・背中・腰・太もも・ふくらはぎ ＞を集中的にほぐします。
+                            &lt; 頭・首・肩・背中・腰・太もも・ふくらはぎ &gt;を集中的にほぐします。
                         </p>
                     </li>
                     <li>
@@ -118,10 +118,10 @@
                     <li class="corse">
                         <div class="menu-list-flex">
                             <p class="corse-tag">Dコース</p>
-                            <h2 clDss="corse-title">全身エステ</h2>
+                            <h2 class="corse-title">全身エステ</h2>
                         </div>
                         <p class="corse-text">
-                            ＜ 頭・首・肩・背中・腰・太もも・ふくらはぎ ＞を集中的にほぐします。
+                            &lt; 頭・首・肩・背中・腰・太もも・ふくらはぎ &gt;を集中的にほぐします。
                         </p>
                     </li>
                     <li>
@@ -138,7 +138,7 @@
                             <h2 class="corse-title">全身エステ</h2>
                         </div>
                         <p class="corse-text">
-                            ＜ 頭・首・肩 ＞を集中的にほぐします。
+                            &lt; 頭・首・肩 &gt;を集中的にほぐします。
                         </p>
                     </li>
                     <li>

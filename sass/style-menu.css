@@ -1,12 +1,31 @@
 .main-menu {
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
+.menu-body .section-title,
+.menu-foot .section-title,
+.menu-facial .section-title {
+  padding-left: 0px;
+}
 .menu-body .menu-header,
 .menu-foot .menu-header,
 .menu-facial .menu-header {
   font-size: 19.2px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .menu-body .menu-header,
+  .menu-foot .menu-header,
+  .menu-facial .menu-header {
+    font-size: 17.2px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu-body .menu-header,
+  .menu-foot .menu-header,
+  .menu-facial .menu-header {
+    font-size: 14.2px;
+  }
 }
 .menu-body .menu-title,
 .menu-foot .menu-title,
@@ -17,8 +36,8 @@
   .menu-body .menu-title,
   .menu-foot .menu-title,
   .menu-facial .menu-title {
-    text-align: center;
     margin-bottom: 20px;
+    font-size: 22px;
   }
 }
 .menu-body .menu-list,
@@ -30,7 +49,7 @@
   margin-bottom: 40px;
   border-bottom: dotted 1px #fff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   .menu-body .menu-list,
   .menu-foot .menu-list,
   .menu-facial .menu-list {
@@ -52,7 +71,15 @@
   .menu-body .menu-price,
   .menu-foot .menu-price,
   .menu-facial .menu-price {
-    margin: 0 auto;
+    font-size: 17.2px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu-body .menu-price,
+  .menu-foot .menu-price,
+  .menu-facial .menu-price {
+    width: 100%;
+    justify-content: space-between;
   }
 }
 .menu-body .menu-price dd,
@@ -63,6 +90,21 @@
 .menu-facial .menu-price dt {
   display: block;
   margin-bottom: -5px;
+}
+@media screen and (max-width: 400px) {
+  .menu-body .menu-price dd,
+  .menu-foot .menu-price dd,
+  .menu-facial .menu-price dd {
+    width: 23%;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu-body .menu-price dt,
+  .menu-foot .menu-price dt,
+  .menu-facial .menu-price dt {
+    width: 60%;
+  }
 }
 .menu-body .menu-price .keta,
 .menu-foot .menu-price .keta,
@@ -81,8 +123,8 @@
 }
 @media screen and (max-width: 768px) {
   .menu-body .menu-list-flex {
-    justify-content: center;
-    gap: 0 30px;
+    gap: 0 10px;
+    align-items: center;
     margin-bottom: 20px;
   }
 }
@@ -93,12 +135,13 @@
 .menu-body .menu-list .corse-title {
   font-size: 24px;
 }
+@media screen and (max-width: 768px) {
+  .menu-body .menu-list .corse-title {
+    font-size: 20px;
+  }
+}
 .menu-body .menu-list .corse-text {
   font-size: 14px;
-}
-@media screen and (max-width: 768px) {
-  .menu-body .menu-list .corse-text {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+  padding-left: 10px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style-menu.css.map */

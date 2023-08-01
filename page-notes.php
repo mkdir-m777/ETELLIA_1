@@ -18,10 +18,6 @@
                     当店では、皆様が安心して施術をお受け頂く為に、次の事項をご承諾頂いた方に限り施術をさせて頂きます。<br>
                     ご理解とご協力をお願い致します。
                 </p>
-            </div>
-        </section>
-        <section class="notes-section_1">
-            <div class="inner">
                 <h1 class="notes-list-title">1.施術について</h1>
                 <ul class="notes-list">
                     <li class="notes-list-item">・当店の施術はリラクゼーションを目的に行うものであり、治療を目的にしたものではございません。<span>※1</span>
@@ -30,10 +26,6 @@
                     </li>
                     <li class="notes-list-item"><span>※1 医師法・薬事法・柔道整復師・あんまマッサージ指圧師・鍼灸師等に関する法律に接触しない施術となります。</span></li>
                 </ul>
-            </div>
-        </section>
-        <section class="notes-section_2">
-            <div class="inner">
                 <h1 class="notes-list-title">2.ご予約・キャンセルについて</h1>
                 <ul class="notes-list">
                     <li class="notes-list-item"> ・当店の施術はリラクゼーションを目的に行うものであり、治療を目的にしたものではございません。 <span>※1</span>
@@ -41,10 +33,6 @@
                     <li class="notes-list-item"> ・当店では施術後、身体の不調等での返金や責任などは一切負いかねますので予めご了承ください。
                     </li>
                 </ul>
-            </div>
-        </section>
-        <section class="notes-section_3">
-            <div class="inner">
                 <h1 class="notes-list-title">3.お客様の体調について</h1>
                 <ul class="notes-list">
                     <li class="notes-list-item"> 以下の項目に当てはまる方はご遠慮頂いております。

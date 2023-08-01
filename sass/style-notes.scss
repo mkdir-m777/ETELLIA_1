@@ -2,22 +2,48 @@
 @use "responsive" as*;
 
 .notes{
+    margin-bottom: 46px;
+    .inner{
+        padding: 0;
+        @include responsive(sm){
+            padding:0 10px;
+            p{
+                @include responsive(sp){
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .section-title{
+        padding-left: 0;
+    }
     &-text{
         font-size: 16px;
         font-weight: 700;
-        margin-bottom: 14px;
+        margin-bottom: 25px;
         line-height: 22.99px;
+        @include responsive(sp){
+            font-size: 14px;
+        }
 
     }
     &-list-title{
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 7px;
+        @include responsive(sp){
+            font-size: 20px;
+        }
+
     }
     &-list{
-        margin-bottom:7px ;
+        margin-bottom:30px ;
+        padding-left: 10px;
         &-item{
             line-height: 22.99px;
+            @include responsive(sp){
+                font-size: 14px;
+            }
             span{
                 font-size: 14px;
                 color:rgba(153, 0, 0, 1) ;
@@ -26,16 +52,3 @@
     }
 }
 
-.notes-section_3{
-    .notes-list-item:first-child{
-        margin-bottom:5px;
-    }
-    .notes-list-item:last-child{
-        margin-top:5px;
-        margin-bottom:15px;
-    }
-    p{
-        font-weight: 700;
-        margin-bottom: 42px;
-    }
-}

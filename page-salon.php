@@ -14,45 +14,49 @@
                         About　us
                     </p>
                 </div>
-                <ul class="about-content">
-                    <li class="about-content-img">
-                        <picture>
-                            <source srcset="<?php echo get_template_directory_uri() ?>/img/salon.webp">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/salon.jpg" class="image" alt="アロマオイルの画像">
-                        </picture>
-                    </li>
-                    <li class="about-content-text-wrap">
-                        <p class="about-text">JR松戸駅から徒歩1分</p>
-                        <p class="about-text">「残業の後に行きたい」<br>
-                            「疲れを明日に持ちこしたくない」<br>
-                            「身体も心も疲れちゃった…」
-                        </p>
-                        <p class="about-text">
-                            という方を少しでも癒したいという想いから誕生しました。
-                        </p>
-                        <p class="about-text">仕事帰り・残業帰りの時間でも<br>
-                            気軽に通ってもらえるサロンになれれば幸いです。</p>
-                    </li>
-                    <li class="about-content-text-wrap">
-                        <p class="about-text">日々の疲れ、不調は、全身のバランスの乱れが原因です。</p>
-                        <p class="about-text">ETELLIAリラクゼーションでは心身のバランスをとり、<br>
-                            当たり前の日々をありがたい日々に変えていく<br>
-                            リラクゼーションをご提供します。
-                        </p>
-                        <p class="about-text">
-                            こだわりのVIPルームには足湯やメイクスペースも完備しております。
-                        </p>
-                        <p class="about-text">仕事帰り・残業帰りの時間でも<br>
-                            極上の癒しの時間をお過ごしください♪
-                        </p>
-                    </li>
-                    <li class="about-content-img">
-                        <picture>
-                            <source srcset="<?php echo get_template_directory_uri() ?>/img/about_2.webp">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/salon.jpg" class="image" alt="アロマオイルの画像">
-                        </picture>
-                    </li>
-                </ul>
+                <div class="about-content-wrap">
+                    <div class="about-content">
+                        <div class="about-content-img">
+                            <picture>
+                                <source srcset="<?php echo get_template_directory_uri() ?>/img/salon.webp">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/salon.jpg" class="image" alt="アロマオイルの画像">
+                            </picture>
+                        </div>
+                        <div class="about-content-text-wrap">
+                            <p class="about-text">JR松戸駅から徒歩1分</p>
+                            <p class="about-text">「残業の後に行きたい」<br>
+                                「疲れを明日に持ちこしたくない」<br>
+                                「身体も心も疲れちゃった…」
+                            </p>
+                            <p class="about-text">
+                                という方を少しでも癒したいという想いから誕生しました。
+                            </p>
+                            <p class="about-text">仕事帰り・残業帰りの時間でも<br>
+                                気軽に通ってもらえるサロンになれれば幸いです。</p>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-content-text-wrap">
+                            <p class="about-text">日々の疲れ、不調は、全身のバランスの乱れが原因です。</p>
+                            <p class="about-text">ETELLIAリラクゼーションでは心身のバランスをとり、<br>
+                                当たり前の日々をありがたい日々に変えていく<br>
+                                リラクゼーションをご提供します。
+                            </p>
+                            <p class="about-text">
+                                こだわりのVIPルームには足湯やメイクスペースも完備しております。
+                            </p>
+                            <p class="about-text">仕事帰り・残業帰りの時間でも<br>
+                                極上の癒しの時間をお過ごしください♪
+                            </p>
+                        </div>
+                        <div class="about-content-img">
+                            <picture>
+                                <source srcset="<?php echo get_template_directory_uri() ?>/img/about_2.webp">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/salon.jpg" class="image" alt="アロマオイルの画像">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 

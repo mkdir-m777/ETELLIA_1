@@ -5,14 +5,34 @@
 .section-recruit table {
   border-collapse: collapse;
 }
+.section-recruit th,
 .section-recruit td {
   text-align: center;
   padding: 20px 0;
   border: 1px solid #fff;
+  white-space: nowrap;
 }
-.section-recruit tr td:first-child {
+@media screen and (max-width: 768px) {
+  .section-recruit th,
+  .section-recruit td {
+    font-size: 14px;
+  }
+}
+.section-recruit tr th {
   width: 30%;
 }
-.section-recruit tr td:last-child {
-  padding: 0 10px;
+@media screen and (max-width: 400px) {
+  .section-recruit tr th {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section-recruit tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-recruit tr th {
+    background-color: #fff;
+    color: #000;
+  }
 }/*# sourceMappingURL=style-recruit.css.map */

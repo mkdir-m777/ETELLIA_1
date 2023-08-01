@@ -186,6 +186,7 @@ body {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 a {
@@ -212,17 +213,16 @@ li {
   }
 }
 
+.header {
+  position: relative;
+}
 .header .inner {
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 17px;
-}
-.header-left {
-  margin-top: 11px;
 }
 @media screen and (max-width: 768px) {
   .header-left {
@@ -242,7 +242,8 @@ li {
 }
 @media screen and (max-width: 400px) {
   .header-right-btn {
-    padding: 10px 20px;
+    padding: 8px 15px;
+    font-size: 13px;
   }
 }
 .header-right-btn:hover {
@@ -251,22 +252,33 @@ li {
 }
 .header-bottom {
   background-color: #fff;
-  height: 50px;
 }
 @media screen and (max-width: 768px) {
   .header-bottom {
-    height: 65px;
+    display: none;
+  }
+}
+.header-bottom .inner {
+  padding: 0 20px;
+}
+@media screen and (max-width: 768px) {
+  .header-bottom .inner {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(7, 7, 7, 0.7);
+    height: 100vh;
   }
 }
 .header-bottom-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 12.5px;
+  padding: 12.5px 0;
 }
 @media screen and (max-width: 768px) {
   .header-bottom-list {
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
 }
 .header-bottom-list a {
@@ -276,21 +288,24 @@ li {
   color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 768px) {
-  .header-bottom-list li:nth-child(1), .header-bottom-list li:nth-child(2), .header-bottom-list li:nth-child(3) {
-    width: 33%;
-    text-align: center;
+  .header-bottom-list a {
+    padding: 30px 0;
+    border-bottom: 1px solid #3b3a3a;
+    color: rgb(255, 255, 255);
   }
-  .header-bottom-list li:nth-child(4), .header-bottom-list li:nth-child(5) {
-    width: 50%;
-    text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .header-bottom-list a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.4s;
   }
 }
 
 .mainvisurl {
-  background-image: url(../img/top_main.webp);
+  background-image: url(../img/top-main-mask.webp), url(../img/top_main.webp);
   background-size: cover;
   height: 396px;
-  position: relative;
 }
 .mainvisurl-image {
   -o-object-fit: cover;
@@ -301,28 +316,26 @@ li {
 }
 
 .main-catcp {
-  position: absolute;
-  top: 50%;
-  right: 5.5%;
-  transform: translateY(-50%);
-}
-@media screen and (max-width: 768px) {
-  .main-catcp {
-    left: 0%;
-    top: 85px;
-    transform: rotate(-50deg);
-    max-width: 300px;
-    text-shadow: #000 1px 1px 1px;
-  }
+  padding-top: 129px;
+  margin: auto 0 auto auto;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .main-catcp-h1 {
   font-size: 48px;
   text-align: center;
   margin-bottom: 10px;
+  white-space: nowrap;
 }
 @media screen and (max-width: 768px) {
   .main-catcp-h1 {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-catcp-h1 {
+    font-size: 24px;
+    text-align: left;
   }
 }
 .main-catcp-h2 {
@@ -330,38 +343,64 @@ li {
   color: #E4BC2E;
   text-align: center;
 }
+@media screen and (max-width: 400px) {
+  .main-catcp-h2 {
+    font-size: 14px;
+    text-align: left;
+  }
+}
 
 .service-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0;
+  padding: 50px 0px;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
+  .service-content {
+    justify-content: center;
+    gap: 38px;
+  }
+}
+@media screen and (max-width: 600px) {
   .service-content {
     flex-direction: column;
   }
 }
 .service-item {
-  margin-bottom: 25px;
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .service-item {
+    width: 170px;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .service-item {
+    width: 225px;
+    height: 225px;
+  }
 }
 .service-item a {
   height: 100%;
   width: 100%;
   display: block;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .service-item h2 {
   font-size: 48px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 768px) {
+  .service-item h2 {
+    font-size: 36px;
+  }
 }
 .service-content .service-item:nth-of-type(1) {
   background-image: url(../img/top_mask.webp), url(../img/salon.webp);
@@ -405,6 +444,14 @@ li {
 @media screen and (max-width: 768px) {
   .message-title {
     padding: 0 20px;
+    text-align: left;
+    font-size: 36px;
+    line-height: 45.98px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .message-title {
+    font-size: 24px;
   }
 }
 .message-text {
@@ -415,11 +462,17 @@ li {
 @media screen and (max-width: 768px) {
   .message-text {
     padding: 0 20px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 400px) {
+  .message-text {
+    font-size: 14px;
   }
 }
 .message-btn {
   display: block;
-  width: 312px;
+  max-width: 312px;
   margin: 0 auto;
   padding: 10px 0;
   background-color: rgb(153, 0, 0);
@@ -443,11 +496,13 @@ li {
 .access-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   .access-inner {
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 .access-adress {
@@ -463,10 +518,20 @@ li {
     margin: 0 auto 30px auto;
   }
 }
+@media screen and (max-width: 400px) {
+  .access-left {
+    width: 90%;
+  }
+}
 .access-left-title {
   font-size: 24px;
   padding: 10px 0;
   border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 400px) {
+  .access-left-title {
+    font-size: 18px;
+  }
 }
 .access-left-flex {
   display: flex;
@@ -476,7 +541,7 @@ li {
   border-bottom: 1px solid #fff;
 }
 .access-left-tel {
-  font-size: 24px;
+  font-size: 18px;
 }
 .access-right {
   width: 52.25%;
@@ -485,6 +550,12 @@ li {
 @media screen and (max-width: 768px) {
   .access-right {
     width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .access-right {
+    width: 90%;
     margin: 0 auto;
   }
 }

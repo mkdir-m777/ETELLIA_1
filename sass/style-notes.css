@@ -1,33 +1,56 @@
+.notes {
+  margin-bottom: 46px;
+}
+.notes .inner {
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .notes .inner {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 400px) {
+  .notes .inner p {
+    font-size: 14px;
+  }
+}
+.notes .section-title {
+  padding-left: 0;
+}
 .notes-text {
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: 25px;
   line-height: 22.99px;
+}
+@media screen and (max-width: 400px) {
+  .notes-text {
+    font-size: 14px;
+  }
 }
 .notes-list-title {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 7px;
 }
+@media screen and (max-width: 400px) {
+  .notes-list-title {
+    font-size: 20px;
+  }
+}
 .notes-list {
-  margin-bottom: 7px;
+  margin-bottom: 30px;
+  padding-left: 10px;
 }
 .notes-list-item {
   line-height: 22.99px;
 }
+@media screen and (max-width: 400px) {
+  .notes-list-item {
+    font-size: 14px;
+  }
+}
 .notes-list-item span {
   font-size: 14px;
   color: rgb(153, 0, 0);
-}
-
-.notes-section_3 .notes-list-item:first-child {
-  margin-bottom: 5px;
-}
-.notes-section_3 .notes-list-item:last-child {
-  margin-top: 5px;
-  margin-bottom: 15px;
-}
-.notes-section_3 p {
-  font-weight: 700;
-  margin-bottom: 42px;
 }/*# sourceMappingURL=style-notes.css.map */

@@ -39,12 +39,12 @@
         <section class="message">
             <div class="inner">
                 <h1 class="message-title">
-                    ETELLIA’s<br class="pc-none"> healing space
+                    ETELLIA’s healing space
                 </h1>
                 <p class="message-text">
-                    当店はあなたの心と体を癒す本格リラクゼーションサロンです。<br class="sp-none">
+                    当店はあなたの心と体を癒す本格リラクゼーションサロンです。<br>
                     リラクゼーション、アロママッサージ、足つぼマッサージ、ヘッドマッサージなど<br class="sp-none">
-                    多数のメニューを取り揃えております。<br class="sp-none">
+                    多数のメニューを取り揃えております。<br >
                     ゆったり静かな空間で、日頃のお疲れを解消しませんか？
                 </p>
                 <a class="message-btn" href="">
