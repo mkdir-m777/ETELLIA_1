@@ -69,7 +69,11 @@ li {
     &-right {
         @include responsive(sm) {
             font-size: 14px;
+            transform: translateX(-50px);
+        }
 
+        @include responsive(sp) {
+            display: none;
         }
 
         &-btn {
@@ -104,7 +108,7 @@ li {
                 position: fixed;
                 top: 0;
                 z-index: 1;
-                background-color: rgba(7, 7, 7, 0.7);
+                background-color: rgba(7, 7, 7, 0.9);
                 height: 100vh;
             }
         }
@@ -210,7 +214,8 @@ li {
             justify-content: center;
             gap: 38px;
         }
-        @include responsive(smm){
+
+        @include responsive(smm) {
             flex-direction: column;
         }
 
@@ -302,8 +307,12 @@ li {
 
         }
 
+        @include responsive(smm) {
+            font-size: 25.5px;
+        }
+
         @include responsive(sp) {
-            font-size: 24px;
+            font-size: 18px;
 
         }
     }
@@ -364,6 +373,8 @@ li {
     &-adress {
         padding: 10px 0;
         border-bottom: 1px solid #fff;
+        white-space: nowrap;
+
     }
 
     &-left {
@@ -373,18 +384,19 @@ li {
             width: 80%;
             margin: 0 auto 30px auto;
         }
+
         @include responsive(sp) {
             width: 90%;
         }
-        
-
 
         &-title {
             font-size: 24px;
             padding: 10px 0;
             border-bottom: 1px solid #fff;
-            @include responsive(sp){
-                font-size: 18px;               
+            white-space: nowrap;
+
+            @include responsive(sp) {
+                font-size: 18px;
             }
         }
 
@@ -410,6 +422,7 @@ li {
             width: 80%;
             margin: 0 auto;
         }
+
         @include responsive(sp) {
             width: 90%;
             margin: 0 auto;

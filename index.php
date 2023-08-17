@@ -56,9 +56,9 @@
             <div class="inner access-inner">
                 <div class="access-left">
                     <dl>
-                        <dt class="access-left-title">ETELLIAリラクゼーション</dt>
+                        <dt class="access-left-title">ETELLIA<wbr>リラクゼーション</dt>
                         <dd class="access-adress">〒111-1111<br>
-                            千葉県松戸市松戸1-1-1　松戸ビル7F
+                            千葉県松戸市松戸1-1-1　<wbr>松戸ビル7F
                         </dd>
                         <div class="access-left-flex">
                             <dt>

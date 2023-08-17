@@ -29,12 +29,14 @@
 .mainvisurl-salon {
     background-image: url(../img/top-main-mask.webp), url(../img/page_main.webp);
     background-size: cover;
+    background-position: center;
     height: 396px;
     display: flex;
     align-items: center;
-    @include responsive(sp){
-        background-position:left , right;
-        height: calc(100vh - 80px);
+
+    @include responsive(sp) {
+        background-size: cover;
+        height: calc(30vh);
 
     }
 

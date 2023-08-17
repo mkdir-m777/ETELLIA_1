@@ -11,8 +11,14 @@
   border-radius: 5px;
   position: absolute;
   z-index: 2;
-  top: 75px;
-  right: 20px;
+  top: 10px;
+  right: 0;
+}
+@media screen and (max-width: 768px) {
+  .openbtn1 {
+    display: block;
+    position: fixed;
+  }
 }
 
 /*ボタン内側*/
@@ -62,11 +68,4 @@
 
 .menu_active {
   display: block;
-}
-
-@media (max-width: 764px) {
-  .openbtn1 {
-    display: block;
-    position: fixed;
-  }
 }/*# sourceMappingURL=style-hambargar.css.map */
